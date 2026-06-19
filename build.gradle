@@ -107,25 +107,61 @@ dependencies {
     compileOnly(libs.jetbrains.annotations)
 
     // Mixin
-    //annotationProcessor(variantOf(libs.mixin) { classifier("processor") })
-    //api(annotationProcessor(forge.mixinExtras.common.get()))
+    annotationProcessor(variantOf(libs.mixin) { classifier("processor") })
+    api(annotationProcessor(forge.mixinExtras.common.get()))
 
     // JEI, EMI, Jade
-    modCompileOnly(forge.bundles.jei)
-    modImplementation(forge.emi)
-    modRuntimeOnly(forge.jade)
+    modRuntimeOnly forge.bundles.jei
+    modRuntimeOnly forge.emi
+    modRuntimeOnly forge.jade
+
+    modImplementation forge.astralMekanism
+
+    // Mekanism
+    modImplementation forge.mekanism
+    modRuntimeOnly forge.mekanismGenerators
+    modRuntimeOnly forge.mekanismTools
+    modRuntimeOnly forge.evolvedMekanism
+    modRuntimeOnly forge.evolvedMekanismExtras
+    modRuntimeOnly forge.mekanismElements
+    modRuntimeOnly forge.mekanismExtras
+    modRuntimeOnly forge.compactMekanismMachines
+    modRuntimeOnly forge.mekanismEmpowered
+    modRuntimeOnly forge.mekanismEmpoweredCore
+    modRuntimeOnly forge.mekanismMoreMachine
+    modRuntimeOnly forge.moreThermaleEvaporation
+    modRuntimeOnly forge.mekanismMoreThermalEvaporationCompat
+
+    modRuntimeOnly forge.igleeLibrary
+    modRuntimeOnly forge.stackUpgradeIntegration
+    modRuntimeOnly forge.guideMe
+    modRuntimeOnly forge.appliedEnergistics2
+    modRuntimeOnly forge.advancedAE
+    modRuntimeOnly forge.appliedMekanistics
+    modRuntimeOnly forge.ae2AddonLib
+    modRuntimeOnly forge.geckolib
+    modRuntimeOnly forge.appliedEnergistics2WirelessTerminals
+    modRuntimeOnly forge.clothConfig
+    modRuntimeOnly forge.architecturyApi
+    modRuntimeOnly forge.curios
+    modRuntimeOnly forge.megaCells
+    modRuntimeOnly forge.glodium
+    modRuntimeOnly forge.appliedFlux
+    modRuntimeOnly forge.botanyPots
+    modRuntimeOnly forge.bookshelf
+    modRuntimeOnly forge.kotlinForForge
 }
 
-//mixin {
-//    add sourceSets.main, "${mod_id}.refmap.json"
-//    config "${mod_id}.mixins.json"
-//}
-//
-//jar {
-//    manifest.attributes([
-//            "MixinConfigs": "${mod_id}.mixins.json"
-//    ])
-//}
+mixin {
+    add sourceSets.main, "${mod_id}.refmap.json"
+    config "${mod_id}.mixins.json"
+}
+
+jar {
+    manifest.attributes([
+            "MixinConfigs": "${mod_id}.mixins.json"
+    ])
+}
 
 // This block of code expands all declared replace properties in the specified resource targets.
 // A missing property will result in an error. Properties are expanded using ${} Groovy notation.

@@ -1,0 +1,14 @@
+{
+  "item.astral_mekanism.absolute_overclocked_tier_installer": "Absolute Overclocked Tier Installer",
+  "item.astral_mekanism.advanced_tier_installer": "Advanced Tier Installer",
+  "item.astral_mekanism.astronomical_max_tier_installer": "Astronomical Max Tier Installer",
+  "item.astral_mekanism.astronomical_tier_installer": "Astronomical Tier Installer",
+  "item.astral_mekanism.basic_standard_tier_installer": "Basic Standard Tier Installer",
+  "item.astral_mekanism.cosmic_dense_tier_installer": "Cosmic Dense Tier Installer",
+  "item.astral_mekanism.elite_tier_installer": "Elite Tier Installer",
+  "item.astral_mekanism.enchanted_ultimate_tier_installer": "Enchanted Ultimate Tier Installer",
+  "item.astral_mekanism.essential_tier_installer": "Essential Tier Installer",
+  "item.astral_mekanism.infinite_multiversal_tier_installer": "Infinite Multiversal Tier Installer",
+  "item.astral_mekanism.supreme_quantum_tier_installer": "Supreme Quantum Tier Installer",
+  "description.astral_mekanism.astronomical_max_tier_installer": "Directly upgrades compatible machines up to the Astronomical tier."
+}

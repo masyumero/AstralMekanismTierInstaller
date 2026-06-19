@@ -6,6 +6,42 @@ jei = "15.20.0.105"
 emi = "1.1.13+1.20.1"
 jade = "5390389" # 11.9.3
 
+astralMekanism = "8252201"
+
+# Mekanism
+mekanism = "1.20.1-10.4.16.80"
+mekanismGenerators = "6552914"
+mekanismTools = "6552915"
+evolvedMekanism = "7321385"
+evolvedMekanismExtras = "7471169"
+mekanismElements = "6537553"
+mekanismExtras = "6936409"
+compactMekanismMachines = "7388773"
+mekanismEmpowered = "7545276"
+mekanismEmpoweredCore = "7545277"
+mekanismMoreMachine = "7485850"
+moreThermaleEvaporation = "7914615"
+mekanismMoreThermalEvaporationCompat = "7622489"
+
+igleeLibrary = "6987117"
+stackUpgradeIntegration = "7915901"
+guideMe = "7127447"
+appliedEnergistics2 = "7148487"
+advancedAE = "7668689"
+appliedMekanistics = "4842281"
+ae2AddonLib = "7668681"
+geckolib = "7553267"
+appliedEnergistics2WirelessTerminals = "7251206"
+clothConfig = "5729105"
+architecturyApi = "5137938"
+curios = "5.14.1+1.20.1"
+megaCells = "6175008"
+glodium = "5226922"
+appliedFlux = "7651647"
+botanyPots = "7612402"
+bookshelf = "5423987"
+kotlinForForge = "7291067"
+
 [libraries]
 mixinExtras-common      = { module = "io.github.llamalad7:mixinextras-common", version.ref = "mixinExtras" }
 
@@ -15,6 +51,42 @@ jei-forge-api           = { module = "mezz.jei:jei-1.20.1-forge-api", version.re
 jei-forge-impl          = { module = "mezz.jei:jei-1.20.1-forge", version.ref = "jei" }
 emi                     = { module = "dev.emi:emi-forge", version.ref = "emi"}
 jade                    = { module = "curse.maven:jade-324717", version.ref = "jade"}
+
+astralMekanism          = { module = "curse.maven:astral-mekanism-1415150", version.ref = "astralMekanism"}
+
+# Mekanism
+mekanism                = { module = "mekanism:Mekanism", version.ref = "mekanism" }
+mekanismGenerators      = { module = "curse.maven:mekanism-generators-268566", version.ref = "mekanismGenerators" }
+mekanismTools           = { module = "curse.maven:mekanism-tools-268567", version.ref = "mekanismTools" }
+evolvedMekanism         = { module = "curse.maven:evolved-mekanism-1230085", version.ref = "evolvedMekanism" }
+evolvedMekanismExtras   = { module = "curse.maven:evolved-mekanism-extras-1268159", version.ref = "evolvedMekanismExtras" }
+mekanismElements        = { module = "curse.maven:mekanism-elements-1103224", version.ref = "mekanismElements" }
+mekanismExtras          = { module = "curse.maven:mekanism-extras-1026040", version.ref = "mekanismExtras" }
+compactMekanismMachines = { module = "curse.maven:compact-mekanism-machines-1161015", version.ref = "compactMekanismMachines" }
+mekanismEmpowered       = { module = "curse.maven:mekanism-empowered-1256390", version.ref = "mekanismEmpowered" }
+mekanismEmpoweredCore   = { module = "curse.maven:mekanism-empowered-core-1256399", version.ref = "mekanismEmpoweredCore" }
+mekanismMoreMachine     = { module = "curse.maven:mekanism-more-machine-1275257", version.ref = "mekanismMoreMachine" }
+moreThermaleEvaporation = { module = "curse.maven:morethermalevaporation-1406469", version.ref = "moreThermaleEvaporation" }
+mekanismMoreThermalEvaporationCompat = { module = "curse.maven:mekanism-more-thermal-evaporation-compat-1409463", version.ref = "mekanismMoreThermalEvaporationCompat" }
+
+igleeLibrary            = { module = "curse.maven:iglee-library-541199", version.ref = "igleeLibrary" }
+stackUpgradeIntegration = { module = "curse.maven:stack-upgrade-integration-1510741", version.ref = "stackUpgradeIntegration" }
+guideMe                 = { module = "curse.maven:guideme-1173950", version.ref = "guideMe" }
+appliedEnergistics2     = { module = "curse.maven:applied-energistics-2-223794", version.ref = "appliedEnergistics2" }
+advancedAE              = { module = "curse.maven:advancedae-1084104", version.ref = "advancedAE" }
+appliedMekanistics      = { module = "curse.maven:applied-mekanistics-574300", version.ref = "appliedMekanistics" }
+ae2AddonLib             = { module = "curse.maven:ae2addonlib-1366135", version.ref = "ae2AddonLib" }
+geckolib                = { module = "curse.maven:geckolib-388172", version.ref = "geckolib" }
+appliedEnergistics2WirelessTerminals = { module = "curse.maven:applied-energistics-2-wireless-terminals-459929", version.ref = "appliedEnergistics2WirelessTerminals" }
+clothConfig             = { module = "curse.maven:cloth-config-348521", version.ref = "clothConfig" }
+architecturyApi         = { module = "curse.maven:architectury-api-419699", version.ref = "architecturyApi" }
+curios                  = { module = "top.theillusivec4.curios:curios-forge", version.ref = "curios" }
+megaCells               = { module = "curse.maven:mega-cells-622112", version.ref = "megaCells" }
+glodium                 = { module = "curse.maven:glodium-957920", version.ref = "glodium" }
+appliedFlux             = { module = "curse.maven:applied-flux-965012", version.ref = "appliedFlux" }
+botanyPots              = { module = "curse.maven:botany-pots-353928", version.ref = "botanyPots" }
+bookshelf               = { module = "curse.maven:bookshelf-228525", version.ref = "bookshelf" }
+kotlinForForge          = { module = "curse.maven:kotlin-for-forge-351264", version.ref = "kotlinForForge" }
 
 [bundles]
 jei = ["jei-common-api", "jei-forge-api", "jei-forge-impl"]
