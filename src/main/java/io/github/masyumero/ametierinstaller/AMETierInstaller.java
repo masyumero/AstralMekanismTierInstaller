@@ -21,7 +21,6 @@ public class AMETierInstaller {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         UpgradeableMachines.init();
-        AMETItems.ITEMS.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
