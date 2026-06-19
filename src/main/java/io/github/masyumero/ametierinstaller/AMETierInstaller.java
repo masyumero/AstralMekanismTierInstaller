@@ -1,7 +1,6 @@
 package io.github.masyumero.ametierinstaller;
 
 import com.mojang.logging.LogUtils;
-import io.github.masyumero.ametierinstaller.common.registries.AMETItems;
 import io.github.masyumero.ametierinstaller.common.upgrade.UpgradeableMachines;
 import io.github.masyumero.ametierinstaller.common.utils.AMETUpgradeableUtils;
 import net.minecraftforge.eventbus.api.IEventBus;
