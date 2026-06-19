@@ -112,7 +112,6 @@ dependencies {
 
     // JEI, EMI, Jade
     modRuntimeOnly forge.bundles.jei
-    modRuntimeOnly forge.emi
     modRuntimeOnly forge.jade
 
     modImplementation forge.astralMekanism
